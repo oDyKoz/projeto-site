@@ -10,3 +10,11 @@
     box-shadow: 1px 1px 5px black ;
     
 }
+.ArtP {
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #cc6cf8;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px black ;
+}
