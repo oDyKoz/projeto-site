@@ -19,7 +19,7 @@
 
 <hr>
 <h1><abbr title="A <address> tag define as informações de contato do autor/proprietário de um documento ou artigo" >Tag Address</abbr></h1>
-<address>
+<address class="address">
         <pre>
        
  Autor: Bruno P. Camps
@@ -27,7 +27,30 @@ Se inscreva em nosso <a href="https://www.youtube.com/@cfbcursos" target="_blank
         </pre>
 <!--Tag <pre> serve para fixação escrita -->
 </address>
-
 <!-- Tag <Address>-->
+    <hr>
+    <h1>Tag Map e Area</h1>
+    <ul>
+        <h2> 
+            <li style="list-style-type: circle;">
+                <address title="A <map>tag é usada para definir um mapa de imagem. Um mapa de imagem é uma imagem com áreas clicáveis.">Map</address>
+            </li>
+            <li style="list-style-type: circle;">
+                <address title="A <area>tag define uma área dentro de um mapa de imagem (um mapa de imagem é uma imagem com áreas clicáveis). ">Area</address>
+            </li>
+        </h2>
+    </ul>
+    <h3>Exemplo:</h3>
+    <img class="map" src="../map.jpg" alt="map mundi" usemap="#mapaBrasil">
+    <map name="mapaBrasil" >
+        <area alt="Brasil" shape="poly" coords="
+        294,476,    278,458,    259,447,    271,427,    295,407,    259,314,    182,236,    128,234,    100,204,    133,179,    162,120,      181,131,    201,115,    210,100,    242,111,    245,128,    314,122,    329,101,    343,130,    489,199,    490,236,
+        454,272,    419,367,    355,390,    351,409,    337,432,    311,449,    300,476 
+        " href="https://pt.wikipedia.org/wiki/Brasil" target="_blank">
+        <area alt="Venezuela" shape="poly" coords="
+        103,38,     114,26,     170,33,     211,34,     246,60,     254,87,     257,112,    252,130,    230,92,     192,95,
+        199,116,    172,129,    157,91,     160,75,     116,70,     103,50
+        " href="https://pt.wikipedia.org/wiki/Venezuela" target="_blank"> 
+    </map>
 </body>
 </html>
