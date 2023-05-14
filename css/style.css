@@ -11,10 +11,20 @@
     
 }
 .ArtP {
-    padding: 15px;
+    padding: 10px;
     border: 1px solid;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #cc6cf8;
     margin-bottom: 10px;
     box-shadow: 1px 1px 5px black ;
+}
+.ArtP1 {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: #cc6cf8;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px black ;
+    text-align: center;
+    
 }
