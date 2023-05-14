@@ -1,7 +1,12 @@
-.address{
-    font-family: Arial, Helvetica, sans-serif;
+*{
+    background-color: #d793f7;
 }
-.map{
+.TAbbr{
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #d793f7;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px black ;
     
-
 }
