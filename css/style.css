@@ -28,3 +28,9 @@
     text-align: center;
     
 }
+.ArtP2 {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #3500f55d;
+    box-shadow: 1px 1px 5px black;
+}
