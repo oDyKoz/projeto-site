@@ -1,6 +1,13 @@
 *{
     background-color: #d793f7;
+    
 }
+
+h1{
+    text-align: center;
+
+}
+
 .TAbbr{
     padding: 15px;
     border: 1px solid;
@@ -10,6 +17,7 @@
     box-shadow: 1px 1px 5px black ;
     
 }
+
 .ArtP {
     padding: 10px;
     border: 1px solid;
@@ -17,20 +25,22 @@
     background-color: #cc6cf8;
     margin-bottom: 10px;
     box-shadow: 1px 1px 5px black ;
+
 }
-.ArtP1 {
-    padding: 10px;
-    border: 1px solid;
+
+.ArtA1 {
+    padding: 10PX;
     border-radius: 15px;
-    background-color: #cc6cf8;
-    margin-bottom: 10px;
-    box-shadow: 1px 1px 5px black ;
+    background-color: #3500f528;
     text-align: center;
+    color: #fff;
     
 }
+
 .ArtP2 {
     padding: 10px;
     margin-bottom: 10px;
     background-color: #3500f55d;
     box-shadow: 1px 1px 5px black;
+
 }
