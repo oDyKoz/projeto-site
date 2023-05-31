@@ -4,11 +4,34 @@
 /*Menu*/
 #menu {
 
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
 }
+      #menu li {
+        display: inline-block;
+      }
+      
+      #menu li a {
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #333;
+      }
+      
+      #menu li a:hover {
+        background-color: #333;
+        color: #fff;
+      }
+     #menu li a{
+
+      }
+    
 /*Alinhagem de texto ou so o texto do primeiro paragrafo*/
 div.bloco1{
-    box-sizing: border-box;
-    background-color: rgb(136, 198, 252);
+    box-sizing:border-box;
+    background:rgb(136, 198, 252);
 }
 
 div p.text1{
