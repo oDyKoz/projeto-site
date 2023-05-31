@@ -1,4 +1,29 @@
+*{
+    margin: 0;
+}
 /*Menu*/
 #menu {
+
+}
+/*Alinhagem de texto ou so o texto do primeiro paragrafo*/
+div.bloco1{
+    box-sizing: border-box;
+    background-color: rgb(136, 198, 252);
+}
+
+div p.text1{
+     
+    justify-content: center;
+    text-align: justify;
+    width: 50%; 
     
+}
+
+div h1.T1{
+
+    font-family:'Courier New', Courier, monospace;
+    color: yellow;
+    display:inline;
+    font-size: 90px;
+   
 }
