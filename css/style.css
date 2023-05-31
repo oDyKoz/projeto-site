@@ -9,6 +9,9 @@
         padding: 0;
         background-color: #f2f2f2;
 }
+    #menu{
+        
+    }
       #menu li {
         display: inline-block;
       }
@@ -24,9 +27,16 @@
         background-color: #333;
         color: #fff;
       }
-     #menu li a{
-
+      .Submenu{
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        padding: 10px;
       }
+      #menu li:hover ul.Submenu{
+        display: block;
+      }
+
     
 /*Alinhagem de texto ou so o texto do primeiro paragrafo*/
 div.bloco1{
