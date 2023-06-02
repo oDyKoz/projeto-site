@@ -1,74 +1,76 @@
-*{
-    margin: 0;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+* {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
-html{
+body {
+  margin: 0;
+}
+
+html {
   scroll-behavior: smooth;
 }
+
 /*Menu*/
-#menu {
-        background-color: #727272;
-        list-style: none;
-        margin: 0;
-        padding: 10px;
-        font-weight: 900;
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+button{
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 36px;
+}
+ul {
+  list-style: none;
+  padding: 0;
 }
 
-      #menu li {
-        display: inline-block;
-      }
-      
-      #menu li a {
-        display: block;
-        padding: 10px 20px;
-        text-decoration: none;
-        color: #333;
-      }
-      /* Animação de clique */
-      #menu li a:hover {
-        background-color: #006eff7e;
-        color: #ffffff;
-        border-radius: 20px;
-      }
-      #menu li a:active {
-        background-color: rgba(255, 255, 255, 0.226);
-      }
-      .Submenu{
-        display: none;
-        position: absolute;
-        background-color: #ffffff00;
-        padding: 10px;
-      }
-      #menu li:hover ul.Submenu{
-        display: block;
-      }
+li {
+  padding: 0 20px;
+}
 
-    
+h1, p {
+  color: white;
+}
+
+nav, ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li:hover, h1:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  color: rgba(115, 164, 255, 0.61);
+}
+
 /*Alinhagem de texto ou so o texto do primeiro paragrafo(Bloco 1)*/
-.bloco1{
-    box-sizing:border-box;
-    margin: 10px 50px 100px;
-    background: #727272;
+.bloco1 {
+  box-sizing: border-box;
+  margin: 10px 50px 100px;
+  background: #727272;
 }
 
-div p.text1{
+div p.text1 {
 
-    margin-left: 50px ;
-    justify-content: center;
-    text-align: justify;
-    width: 50%; 
-    font-size: 25px;
-    
+  margin-left: 50px;
+  justify-content: center;
+  text-align: justify;
+  width: 50%;
+  font-size: 25px;
+
 }
 
-div h1.T1{
+div h1.T1 {
 
-    font-family:'Courier New', Courier, monospace;
-    color: yellow;
-    display:inline;
-    font-size: 90px;
-   
+  font-family: 'Courier New', Courier, monospace;
+  color: yellow;
+  display: inline;
+  font-size: 90px;
+
 }
-
