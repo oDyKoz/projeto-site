@@ -1,15 +1,19 @@
 *{
     margin: 0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #00e1ff88;
-}    
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
 /*Menu*/
 #menu {
-
+        background-color: #727272;
         list-style: none;
         margin: 0;
-        padding: 0;
-
+        padding: 10px;
+        font-weight: 900;
 }
 
       #menu li {
@@ -45,7 +49,8 @@
 /*Alinhagem de texto ou so o texto do primeiro paragrafo(Bloco 1)*/
 .bloco1{
     box-sizing:border-box;
-
+    margin: 10px 50px 100px;
+    background: #727272;
 }
 
 div p.text1{
@@ -54,6 +59,7 @@ div p.text1{
     justify-content: center;
     text-align: justify;
     width: 50%; 
+    font-size: 25px;
     
 }
 
@@ -65,8 +71,4 @@ div h1.T1{
     font-size: 90px;
    
 }
-/* Fundo do Bloco 1 */
-.bloco1 {
-  margin:50px auto;
-  display: ;
-}
+
