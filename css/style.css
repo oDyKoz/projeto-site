@@ -14,7 +14,7 @@ html {
 
 /*Menu*/
 nav {
-  background-color: #333;
+  background-color: #353535;
   padding: 10px 20px;
   align-items: center;
   justify-content: space-between;
@@ -23,30 +23,67 @@ button{
   background-color: transparent;
   border: none;
   color: #fff;
-  font-size: 36px;
+  font-size: 30px;
+  position: absolute;
+  right: 10px;
+  display: none;
 }
 ul {
   list-style: none;
   padding: 0;
+  overflow:hidden ;
 }
 
 li {
-  padding: 0 20px;
+  padding: 10px 20px;
 }
 
-h1, p {
+#h1l, p {
   color: white;
 }
 
-nav, ul {
+nav , ul {
   display: flex;
   flex-direction: row;
 }
 
-li:hover, h1:hover {
+li:hover ,#h1l:hover, button:hover{
+  background-color: #727272;
   cursor: pointer;
   opacity: 0.8;
-  color: rgba(115, 164, 255, 0.61);
+  color: rgba(206, 206, 206, 0.61);
+  
+}
+button:focus ~ ul {
+  height: 155px;
+}
+@media (max-width: 700px) {
+  nav , ul{
+    flex-direction: column;
+
+  }
+  ul {
+    text-align: center;
+    margin: 0;
+    height: 0;
+    transition:all 0.5s ;
+  }
+    
+  nav{
+    padding: 0;
+    align-items: flex-start;
+  }
+  button{
+    display: flex;
+
+  }
+  #h1l{
+  margin: 10px;
+  }
+  li , ul{
+    width: 100%;
+  }
+
 }
 
 /*Alinhagem de texto ou so o texto do primeiro paragrafo(Bloco 1)*/
