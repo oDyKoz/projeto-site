@@ -28,25 +28,24 @@ button{
   right: 10px;
   display: none;
 }
-ul {
+nav#logo ul {
   list-style: none;
   padding: 0;
   overflow:hidden ;
 }
 
-li {
+nav#logo li {
   padding: 10px 20px;
 }
 
-#h1l, p {
-  color: white;
+nav{
+  color: rgb(255, 255, 255);
 }
 
 nav , ul {
   display: flex;
   flex-direction: row;
 }
-
 li:hover ,#h1l:hover, button:hover{
   background-color: #727272;
   cursor: pointer;
@@ -54,9 +53,11 @@ li:hover ,#h1l:hover, button:hover{
   color: rgba(206, 206, 206, 0.61);
   
 }
+/* Tamanho da reprodução do menu */
 button:focus ~ ul {
   height: 155px;
 }
+/* Responsivo apos */
 @media (max-width: 700px) {
   nav , ul{
     flex-direction: column;
@@ -80,8 +81,11 @@ button:focus ~ ul {
   #h1l{
   margin: 10px;
   }
-  li , ul{
+  ul , li{
     width: 100%;
+  }
+  .mapa{
+    list-style: ;
   }
 
 }
@@ -107,7 +111,6 @@ div h1.T1 {
 
   font-family: 'Courier New', Courier, monospace;
   color: yellow;
-  display: inline;
   font-size: 90px;
 
 }
