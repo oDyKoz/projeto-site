@@ -25,17 +25,22 @@ button{
   color: #fff;
   font-size: 30px;
   position: absolute;
-  right: 10px;
-  display: none;
+  right: 0;
+  display: flex;
 }
+
 nav#logo ul {
   list-style: none;
   padding: 0;
   overflow:hidden ;
 }
+nav#logo a{
+  
+}
 
 nav#logo li {
   padding: 10px 20px;
+
 }
 
 nav{
@@ -57,10 +62,11 @@ li:hover ,#h1l:hover, button:hover{
 button:focus ~ ul {
   height: 155px;
 }
-/* Responsivo apos */
+/* Responsivo após */
 @media (max-width: 700px) {
-  nav , ul{
+  nav , ul {
     flex-direction: column;
+
 
   }
   ul {

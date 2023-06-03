@@ -7,23 +7,31 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Site de Estudo</title>
 </head>
-
 <body>
 <nav id="logo">
     <div>
         <h1 id="h1l">Menu Responsivo</h1>
     </div>
-    <button>&#9776;</button>
-    <ul>
-            <li><p>Perfil</p></li>
-            <li><p>Perfil</p></li>
-            <li><p>Perfil</p></li>
-            <li><p>Perfil</p></li>
+    <button onclick="abrirmenu()">&#9776;</button>
+    <ul id="botoesMenu">
+            <a href="#Sobre a Pagina">
+                <li><p>Sobre a Página</p></li>
+            </a>
+            <a href="#">
+                <li><p>Dados</p></li>
+            </a>
+            <a href="#Projetos">
+                <li><p>Projetos</p></li>
+            </a>
+            <a href="#Estudos Feito">
+                <li><p>Estudos Feito</p></li>
+            </a>
     </ul>
 </nav>
 
+
     <div class="bloco1">
-        <h1 class="T1">Sobre a Página</h1>
+        <h1 class="T1" id="Sobre a Pagina">Sobre a Página</h1>
         <p class="text1">
                   Nesse site estarei construindo um site simples e visualmente estrutural simplicando ao desse uso desse site sera postado meus estudos.
          </p>
