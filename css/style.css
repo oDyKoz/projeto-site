@@ -15,11 +15,12 @@ html {
 /*Menu*/
 nav {
   background-color: #353535;
-  padding: 10px 20px;
+  padding: 10px 10px;
   align-items: center;
   justify-content: space-between;
 }
 button{
+
   background-color: transparent;
   border: none;
   color: #fff;
@@ -29,14 +30,13 @@ button{
   display: flex;
 }
 
+
 nav#logo ul {
   list-style: none;
   padding: 0;
   overflow:hidden ;
 }
-nav#logo a{
-  
-}
+
 
 nav#logo li {
   padding: 10px 20px;
@@ -47,11 +47,14 @@ nav{
   color: rgb(255, 255, 255);
 }
 
-nav , ul {
+nav,
+ul {
   display: flex;
   flex-direction: row;
 }
-li:hover ,#h1l:hover, button:hover{
+li:hover,
+#h1l:hover, 
+button:hover{
   background-color: #727272;
   cursor: pointer;
   opacity: 0.8;
@@ -64,7 +67,8 @@ button:focus ~ ul {
 }
 /* Responsivo após */
 @media (max-width: 700px) {
-  nav , ul {
+  nav,
+  ul {
     flex-direction: column;
 
 
@@ -87,11 +91,9 @@ button:focus ~ ul {
   #h1l{
   margin: 10px;
   }
-  ul , li{
+  ul,
+  li{
     width: 100%;
-  }
-  .mapa{
-    list-style: ;
   }
 
 }
