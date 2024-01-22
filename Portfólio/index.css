@@ -9,20 +9,21 @@
 }
 
 :root {
-  --white: #fff;
-  --black: #131826;
-  --blue: #1e94d2;
-  --dark: #202740;
-  --gray: #d9d8d8;
+  --black: (#0D0520);
+  --write: (#BAACDD);
+  --blue: (#9CA5F8);
+  --dark: (#27274d);
+  --gray: (#515151);
 }
 
 body * {
-  font-family: "Roboto", sans-serif;
+  font-family: 'JetBrains Mono', sans-serif;
+  color: #BAACDD;
 }
 
 body {
   height: 100vh;
-  background: var(--black);
+  background: #1F0439;
 }
 
 #menu {
@@ -34,20 +35,31 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  background-color: var(--dark);
+  background-color: #351456;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
   transition: transform 0.5s;
   border-radius: 50px;
-  z-index: 999;
+  z-index: 2;
   transform: translateY(-50%);
   top: 50%;
 }
 
+
 .menu ul {
   background-color: blueviolet;
-  position: static;
   list-style: none;
   border-radius: 25px;
   padding: 10px 10px 10px 10px;
   font-size: 50px;
 }
+
+.p1conti1 {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 310px 50px 340px 50px;
+  gap: 20px;
+}
+
+.p1conti1 h1 {}
