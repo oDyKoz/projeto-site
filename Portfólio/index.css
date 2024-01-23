@@ -57,18 +57,43 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 270px 50px 239px 50px;
+  padding: 270px 50px 220px 50px;
   gap: 20px;
   z-index: 99;
   position: relative;
 }
 
+.p1conti1 h1 {
+  border-right: 4px solid;
+  width: 34ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(20),
+    blinking 0.3s infinite step-end alternate;
+}
 
-.p1conti1 i {
-  display: inline-flex;
-  color: #ffffff;
-  font-weight: 900;
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blinking {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.p1conti1 p {
+  font-weight: 100;
   font-size: x-large;
-  bottom: 20%;
-  transform: rotateY(40%);
+}
+
+
+.p2conti1 {
+  background-color: #1F0439;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 95px 100px 95px;
+  gap: 50px;
 }
