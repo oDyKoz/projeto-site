@@ -54,11 +54,12 @@ body {
 }
 
 .p1conti1 {
-  z-index: 1;
+  background: #0D0520;
+  z-index: 99;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 310px 50px 340px 50px;
+  padding: 287px 50px 335px 50px;
   gap: 20px;
 }
 
