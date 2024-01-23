@@ -28,6 +28,8 @@ body {
 
 #menu {
   position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
   width: 32px;
   padding: 12px 8px;
   margin-left: 30px;
@@ -37,11 +39,8 @@ body {
   gap: 12px;
   background-color: #351456;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
-  transition: transform 0.5s;
   border-radius: 50px;
   z-index: 2;
-  transform: translateY(-50%);
-  top: 50%;
 }
 
 
@@ -55,12 +54,21 @@ body {
 
 .p1conti1 {
   background: #0D0520;
-  z-index: 99;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 287px 50px 335px 50px;
+  padding: 270px 50px 239px 50px;
   gap: 20px;
+  z-index: 99;
+  position: relative;
 }
 
-.p1conti1 h1 {}
+
+.p1conti1 i {
+  display: inline-flex;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: x-large;
+  bottom: 20%;
+  transform: rotateY(40%);
+}
