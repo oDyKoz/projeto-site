@@ -89,11 +89,15 @@ body {
   font-size: x-large;
 }
 
-
 .p2conti1 {
   background-color: #1F0439;
   display: flex;
   flex-direction: column;
   padding: 100px 95px 100px 95px;
   gap: 50px;
+  max-width: 800px;
+}
+
+.p2conti2 {
+  align-content: ;
 }
