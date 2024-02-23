@@ -1,4 +1,5 @@
 # Portfólio - Um projeto simples #
+**Não Terminado**
 
 ### Sobre ###
 
