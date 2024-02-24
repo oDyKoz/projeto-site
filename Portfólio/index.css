@@ -123,12 +123,8 @@ body {
   position: relative;
 }
 
-.p3conti1~h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translate(25%, -25%);
-}
+/** Corregir erro de alinhação **/
+
 
 @keyframes spin {
   0% {
@@ -144,12 +140,12 @@ body {
   display: flex inline;
   flex-direction: column;
   align-items: center;
-
 }
 
 .p3conti1 .box-circle {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   align-items: center;
 }
 
