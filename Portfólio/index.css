@@ -28,6 +28,7 @@ body * {
 body {
   height: 100vh;
   background: #1F0439;
+  overflow-x: hidden;
 }
 
 #menu {
@@ -105,4 +106,86 @@ body {
   padding: 100px 95px 100px 95px;
   gap: 50px;
   max-width: 800px;
+}
+
+.p2conti1 a img:hover {
+  transform: scale(1.20);
+  transition: .6s;
+}
+
+.p3conti1 {
+  background: #0D0520;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 95px 100px 95px;
+  gap: 20px;
+  position: relative;
+}
+
+.p3conti1~h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(25%, -25%);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.p3conti1 .box {
+  display: flex inline;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.p3conti1 .box-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p3conti1 .box-circle svg {
+  width: 150px;
+  height: 150px;
+  animation: spin 5s linear infinite;
+}
+
+circle {
+  fill: none;
+  stroke: rgb(0, 0, 0);
+  stroke-width: 10px;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 44;
+}
+
+circle:nth-child(1) {
+  stroke-dashoffset: 440;
+  stroke: #0D0520;
+}
+
+
+circle:nth-child(2) {
+  stroke-dashoffset: 70;
+  stroke: rgb(255, 255, 47);
+}
+
+.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 105%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
 }
