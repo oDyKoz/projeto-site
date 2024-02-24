@@ -16,6 +16,10 @@
   --gray: (#515151);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body * {
   font-family: 'JetBrains Mono', sans-serif;
   color: #BAACDD;
@@ -72,6 +76,11 @@ body {
     blinking 0.3s infinite step-end alternate;
 }
 
+.p1conti1 img:hover {
+  transform: scale(1.05);
+  transition: .6s;
+}
+
 @keyframes typing {
   from {
     width: 0;
@@ -96,8 +105,4 @@ body {
   padding: 100px 95px 100px 95px;
   gap: 50px;
   max-width: 800px;
-}
-
-.p2conti2 {
-  align-content: ;
 }
