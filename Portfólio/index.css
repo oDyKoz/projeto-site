@@ -116,10 +116,20 @@ body {
 .p3conti1 {
   background: #0D0520;
   display: flex;
+  align-items: center;
+  flex-direction: center;
+  transform: rotateX(-200%);
+  padding: 25px 95px 100px 195px;
+  gap: 250px;
+  position: relative;
+}
+
+h1 {
+  background: #0D0520;
+  padding: 50px 25px 50px 25px;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 25px 95px 100px 95px;
-  gap: 20px;
   position: relative;
 }
 
@@ -140,7 +150,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: column;
-  justify-content: center;
 }
 
 .p3conti1 .box-circle {
