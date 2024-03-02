@@ -196,3 +196,9 @@ circle:nth-child(2) {
   align-items: center;
   color: yellow;
 }
+
+text {
+  x: calc(50% - (font-size / 2));
+  y: calc(50% + (font-size / 4));
+  /* Ajuste o offset vertical conforme necessário */
+}
