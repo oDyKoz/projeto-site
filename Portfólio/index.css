@@ -70,7 +70,7 @@ body {
 
 .p1conti1 h1 {
   border-right: 4px solid;
-  width: 34ch;
+  width: 31ch;
   white-space: nowrap;
   overflow: hidden;
   animation: typing 2s steps(20),
@@ -124,7 +124,7 @@ body {
   position: relative;
 }
 
-h1 {
+.h2p {
   background: #0D0520;
   padding: 50px 25px 50px 25px;
   display: flex;
@@ -195,9 +195,4 @@ circle:nth-child(2) {
   justify-content: center;
   align-items: center;
   color: white;
-}
-
-text {
-  x: calc(50% - (font-size / 2));
-  y: calc(50% + (font-size / 4));
 }
