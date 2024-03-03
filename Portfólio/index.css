@@ -194,11 +194,10 @@ circle:nth-child(2) {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: yellow;
+  color: white;
 }
 
 text {
   x: calc(50% - (font-size / 2));
   y: calc(50% + (font-size / 4));
-  /* Ajuste o offset vertical conforme necessário */
 }
