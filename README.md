@@ -10,7 +10,7 @@ Estou criando esse projeto para esta tentando dar meu primeiro passo ao mundo De
 - [X] Estrutura principal.
 - [X] Estilização,
 - [ ] Estrutura de informações.
-- [X] Colocar imagens e outros detalhes.
+- [ ] Colocar imagens e outros detalhes.
 
 ### Linguagens Utilizadas ###
 
