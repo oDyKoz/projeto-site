@@ -8,7 +8,7 @@ Estou criando esse projeto para esta tentando dar meu primeiro passo ao mundo De
 ### Realizações no Projeto ### 
 
 - [X] Estrutura principal.
-- [X] Estilização,
+- [X] Estilização.
 - [ ] Estrutura de informações.
 - [ ] Colocar imagens e outros detalhes.
 
