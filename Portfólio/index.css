@@ -157,7 +157,6 @@ body {
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(2, 1fr);
   align-items: center;
-
 }
 
 .p3conti1 .box-circle svg {
@@ -172,6 +171,7 @@ circle {
   stroke-width: 10px;
   transform: translate(5px, 5px);
   stroke-dasharray: 44;
+
 }
 
 circle:nth-child(1) {
@@ -196,3 +196,11 @@ circle:nth-child(2) {
   align-items: center;
   color: white;
 }
+
+footer {
+  display: flex;
+  padding: 20px 100px 20px 100px;
+  background: #0D0520;
+}
+
+.list {}
