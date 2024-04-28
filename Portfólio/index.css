@@ -146,10 +146,13 @@ body {
   }
 }
 
-.p3conti1 .box {
+.p3conti1 .box:hover {
   display: flex;
   flex-direction: column;
   align-items: column;
+
+  transform: scale(1.20);
+  transition: .6s;
 }
 
 .p3conti1 .box-circle {
@@ -197,8 +200,30 @@ circle:nth-child(2) {
   color: white;
 }
 
+/*Rotapé*/
+
 footer {
+  background-color: #000000;
   display: flex;
-  padding: 20px 100px 20px 100px;
-  background: #0D0520;
+  justify-content: space-between;
+  gap: 80px;
+  padding: 60px 80px;
+}
+
+footer a {
+  color: rgb(255, 255, 255);
+  display: block;
+  margin-bottom: 16px;
+  text-decoration: none;
+  max-width: 350px;
+}
+
+footer p {
+  margin-bottom: 16px;
+  max-width: 350px;
+}
+
+footer p a {
+  color: white;
+  text-decoration: none;
 }
