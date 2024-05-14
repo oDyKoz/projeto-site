@@ -1,6 +1,6 @@
 *,
 *:after,
-*:before {
+*:before { /* This resets some default styles for all elements */
   margin: 0;
   padding: 0;
   border: 0;
@@ -8,7 +8,7 @@
   list-style: none;
 }
 
-:root {
+:root { /* This defines some global variables for the CSS */
   --black: (#0D0520);
   --write: (#BAACDD);
   --blue: (#9CA5F8);
@@ -16,22 +16,22 @@
   --gray: (#515151);
 }
 
-html {
+html { /* This sets the scroll behavior for the HTML document */
   scroll-behavior: smooth;
 }
 
-body * {
+body * { /* This sets the font and color for all elements inside the body */
   font-family: 'JetBrains Mono', sans-serif;
   color: #BAACDD;
 }
 
-body {
+body { /* This sets the height, background, overflow, and position for the body */
   height: 100vh;
   background: #1F0439;
   overflow-x: hidden;
 }
 
-#menu {
+#menu { /* This sets the position, top, transform, width, padding, display, flex-direction, align-items, gap, background-color, box-shadow, border-radius, z-index, and position for the menu */
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
@@ -48,8 +48,7 @@ body {
   z-index: 2;
 }
 
-
-.menu ul {
+.menu ul { /* This sets the background-color, list-style, border-radius, padding, font-size for the menu's unordered list */
   background-color: blueviolet;
   list-style: none;
   border-radius: 25px;
@@ -57,7 +56,7 @@ body {
   font-size: 50px;
 }
 
-.p1conti1 {
+.p1conti1 { /* This sets the background, display, flex-direction, align-items, padding, gap, z-index, and position for the first container */
   background: #0D0520;
   display: flex;
   flex-direction: column;
@@ -68,7 +67,7 @@ body {
   position: relative;
 }
 
-.p1conti1 h1 {
+.p1conti1 h1 { /* This sets the border-right, width, white-space, overflow, animation, and animation-delay for the first container's h1 */
   border-right: 4px solid;
   width: 31ch;
   white-space: nowrap;
@@ -77,29 +76,29 @@ body {
     blinking 0.3s infinite step-end alternate;
 }
 
-.p1conti1 img:hover {
+.p1conti1 img:hover { /* This sets the transform and transition for the first container's images on hover */
   transform: scale(1.05);
   transition: .6s;
 }
 
-@keyframes typing {
+@keyframes typing { /* This defines the animation for typing effect */
   from {
     width: 0;
   }
 }
 
-@keyframes blinking {
+@keyframes blinking { /* This defines the animation for blinking effect */
   50% {
     border-color: transparent;
   }
 }
 
-.p1conti1 p {
+.p1conti1 p { /* This sets the font-weight and font-size for the first container's p */
   font-weight: 100;
   font-size: x-large;
 }
 
-.p2conti1 {
+.p2conti1 { /* This sets the background-color, display, flex-direction, padding, gap, and max-width for the second container */
   background-color: #1F0439;
   display: flex;
   flex-direction: column;
@@ -108,12 +107,12 @@ body {
   max-width: 800px;
 }
 
-.p2conti1 a img:hover {
+.p2conti1 a img:hover { /* This sets the transform and transition for the second container's images on hover */
   transform: scale(1.20);
   transition: .6s;
 }
 
-.p3conti1 {
+.p3conti1 { /* This sets the background, display, align-items, flex-direction, transform, padding, gap, and position for the third container */
   background: #0D0520;
   display: flex;
   align-items: center;
@@ -124,7 +123,7 @@ body {
   position: relative;
 }
 
-.h2p {
+.h2p { /* This sets the background, padding, display, flex-direction, align-items, and position for the fourth container */
   background: #0D0520;
   padding: 50px 25px 50px 25px;
   display: flex;
@@ -135,8 +134,7 @@ body {
 
 /** Corregir erro de alinhação **/
 
-
-@keyframes spin {
+@keyframes spin { /* This defines the animation for spinning effect */
   0% {
     transform: rotate(0deg);
   }
@@ -146,7 +144,7 @@ body {
   }
 }
 
-.p3conti1 .box:hover {
+.p3conti1 .box:hover { /* This sets the display, flex-direction, align-items, transform, and transition for the third container's boxes on hover */
   display: flex;
   flex-direction: column;
   align-items: column;
@@ -155,40 +153,38 @@ body {
   transition: .6s;
 }
 
-.p3conti1 .box-circle {
+.p3conti1 .box-circle { /* This sets the display, grid-template-columns, grid-template-rows, align-items, and justify-content for the third container's box-circle */
   display: flex;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(2, 1fr);
   align-items: center;
+  justify-content: center;
 }
 
-.p3conti1 .box-circle svg {
+.p3conti1 .box-circle svg { /* This sets the width, height, and animation for the third container's box-circle's svg */
   width: 150px;
   height: 150px;
   animation: spin 5s linear infinite;
 }
 
-circle {
+circle { /* This sets the fill, stroke, stroke-width, stroke-dasharray, and stroke-dashoffset for the svg's circles */
   fill: none;
   stroke: rgb(0, 0, 0);
   stroke-width: 10px;
-  transform: translate(5px, 5px);
   stroke-dasharray: 44;
-
+  stroke-dashoffset: 440;
 }
 
-circle:nth-child(1) {
-  stroke-dashoffset: 440;
+circle:nth-child(1) { /* This sets the stroke for the first circle */
   stroke: #0D0520;
 }
 
-
-circle:nth-child(2) {
-  stroke-dashoffset: 70;
+circle:nth-child(2) { /* This sets the stroke for the second circle */
   stroke: rgb(255, 255, 47);
+  stroke-dashoffset: 70;
 }
 
-.number {
+.number { /* This sets the position, top, left, width, height, display, justify-content, align-items, and color for the number elements */
   position: absolute;
   top: 0;
   left: 0;
@@ -202,7 +198,7 @@ circle:nth-child(2) {
 
 /*Rotapé*/
 
-footer {
+footer { /* This sets the background-color, display, justify-content, gap, padding, and position for the footer */
   background-color: #000000;
   display: flex;
   justify-content: space-between;
@@ -210,7 +206,7 @@ footer {
   padding: 60px 80px;
 }
 
-footer a {
+footer a { /* This sets the color, display, margin-bottom, text-decoration, and max-width for the footer's links */
   color: rgb(255, 255, 255);
   display: block;
   margin-bottom: 16px;
@@ -218,12 +214,17 @@ footer a {
   max-width: 350px;
 }
 
-footer p {
+footer p { /* This sets the margin-bottom and max-width for the footer's paragraphs */
   margin-bottom: 16px;
   max-width: 350px;
 }
 
-footer p a {
+footer p a { /* This sets the color, text-decoration, and transition for the footer's links inside the paragraphs */
   color: white;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer p a:hover { /* This sets the color for the footer's links inside the paragraphs on hover */
+  color: #BAACDD;
 }
